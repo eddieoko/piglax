@@ -1,2 +1,2 @@
 # piglax
-![Image of Piglax](https://photos.app.goo.gl/9sSQ4BUDiy29eEFr7)
+![image of piglax](https://photos.app.goo.gl/9sSQ4BUDiy29eEFr7)
