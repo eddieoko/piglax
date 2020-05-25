@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Pig Latin Translator</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<br>
+<div class="d-flex flex-column col-md-12 text-center">
+<div class="container">
+    <h2>Pig Latin Translator</h2>
+    <br>
+    {% if translation %}
+    <i class="em em-pig" aria-role="presentation" aria-label="PIG FACE"></i> says: "{{ translation }}"
+    {% endif %}
+    <br>
+    <br>
+    <form action="/translation.html", method="POST">
+        <div class="form-group">
+            <input type="text" class="form-control" id="text" placeholder="Type your message" name="text">
+        </div>
+        <button type="submit" class="btn btn-primary">Translate</button>
+    </form>
+</div>
+</div>
+
+
+
+{% endblock %}
