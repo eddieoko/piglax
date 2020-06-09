@@ -1,9 +1,5 @@
 from flask import Flask, render_template, request
-from wtforms import Form, BooleanField, StringField, PasswordField, validators
-
-
-class TextForm(Form):
-    message = StringField('message', [validators.Length(min=4, max=25)])
+from wtforms import Form, StringField, 
 
 
 piglax = Flask(__name__)
