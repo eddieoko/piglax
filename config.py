@@ -1,1 +1,0 @@
-app.config['SECRET_KEY'] = "0938595867742349"
